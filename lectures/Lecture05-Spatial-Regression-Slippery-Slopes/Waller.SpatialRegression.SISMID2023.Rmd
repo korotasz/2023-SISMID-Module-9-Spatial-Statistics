@@ -16,7 +16,7 @@ and https://www.r-bloggers.com/spatial-data-analysis-with-inla/
 
 ```{r }
 ##Load libraries
-
+library(spDataLarge)
 library(spdep)
 library(INLA)
 

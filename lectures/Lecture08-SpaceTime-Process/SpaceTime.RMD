@@ -9,13 +9,16 @@ output:
 # SISMID Spatial Satistics
 # Data Lab 8 Modelling Space-Time Areal Data
 ***
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 # 8.1 Data Wrangling and Visualization 
 
 Specify working directory and load R data file. The dataframe contains annual cases of chlamydia for 18 years (2002 to 2019) for each of the 159 county in Georgia. The rate is also given per 100,000 people. 
 
 ```{r}
-setwd ("Y:/Teaching/Bios737 Spatial Analysis/Lectures/SISMID Labs/P8")
+#setwd ("Y:/Teaching/Bios737 Spatial Analysis/Lectures/SISMID Labs/P8")
 load ("Chlamydia_GA.RData")
 str (dat)
 ```
